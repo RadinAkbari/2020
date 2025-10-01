@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react"
 import { Card } from "@/components/ui/card"
-import { Gift, Sparkles, X, Ban } from "lucide-react"
+import { Gift, Sparkles, X, Ban, Skull } from "lucide-react"
 
-type PrizeType = "money" | "negative" | "skip" | "null"
+type PrizeType = "money" | "negative" | "skip" | "null" | "gameover"
 
 interface Prize {
   type: PrizeType
@@ -12,13 +12,10 @@ interface Prize {
   label: string
 }
 
-// Prize distribution that totals 20 million tomans
 const basePrizes: Prize[] = [
-  { type: "money", amount: 5000000, label: "۵ میلیون تومان" },
-  { type: "money", amount: 3000000, label: "۳ میلیون تومان" },
+  { type: "gameover", label: "گیم اور" },
   { type: "money", amount: 2500000, label: "۲.۵ میلیون تومان" },
   { type: "money", amount: 2000000, label: "۲ میلیون تومان" },
-  { type: "money", amount: 1500000, label: "۱.۵ میلیون تومان" },
   { type: "money", amount: 1500000, label: "۱.۵ میلیون تومان" },
   { type: "money", amount: 1000000, label: "۱ میلیون تومان" },
   { type: "money", amount: 1000000, label: "۱ میلیون تومان" },
@@ -26,10 +23,12 @@ const basePrizes: Prize[] = [
   { type: "money", amount: 700000, label: "۷۰۰ هزار تومان" },
   { type: "money", amount: 500000, label: "۵۰۰ هزار تومان" },
   { type: "money", amount: 500000, label: "۵۰۰ هزار تومان" },
+  { type: "money", amount: 300000, label: "۳۰۰ هزار تومان" },
+  { type: "money", amount: 200000, label: "۲۰۰ هزار تومان" },
+  { type: "negative", amount: -800000, label: "منفی ۸۰۰ هزار تومان" },
+  { type: "negative", amount: -600000, label: "منفی ۶۰۰ هزار تومان" },
   { type: "negative", amount: -500000, label: "منفی ۵۰۰ هزار تومان" },
-  { type: "negative", amount: -300000, label: "منفی ۳۰۰ هزار تومان" },
-  { type: "negative", amount: -200000, label: "منفی ۲۰۰ هزار تومان" },
-  { type: "skip", label: "رد شو" },
+  { type: "negative", amount: -400000, label: "منفی ۴۰۰ هزار تومان" },
   { type: "skip", label: "رد شو" },
   { type: "null", label: "پوچ" },
   { type: "null", label: "پوچ" },
@@ -81,6 +80,8 @@ export default function PrizeGame() {
         return <Sparkles className="w-8 h-8 text-yellow-500" />
       case "null":
         return <Ban className="w-8 h-8 text-gray-400" />
+      case "gameover":
+        return <Skull className="w-8 h-8 text-purple-600" />
     }
   }
 
@@ -94,6 +95,8 @@ export default function PrizeGame() {
         return "bg-gradient-to-br from-yellow-50 to-amber-100 border-yellow-300"
       case "null":
         return "bg-gradient-to-br from-gray-50 to-slate-100 border-gray-300"
+      case "gameover":
+        return "bg-gradient-to-br from-purple-100 to-pink-100 border-purple-400"
     }
   }
 
@@ -176,7 +179,7 @@ export default function PrizeGame() {
       <div className="mt-8 text-center">
         <Card className="inline-block bg-white/80 backdrop-blur-sm border-purple-200 p-4">
           <p className="text-sm text-muted-foreground">
-            مجموع کل جوایز: <span className="font-bold text-primary">۲۰ میلیون تومان</span>
+            مجموع کل جوایز: <span className="font-bold text-primary">۱۰ میلیون تومان</span>
           </p>
         </Card>
       </div>
