@@ -105,7 +105,7 @@ export default function PrizeGame() {
           <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-2">
             20 20
           </h1>
-          <p className="text-muted-foreground text-lg">CafetradeTV</p>
+          <p className="text-muted-foreground leading-7 text-2xl font-semibold">CafetradeTV</p>
         </div>
 
         <Card className="border-none shadow-none bg-transparent p-6 min-w-[280px]">
@@ -124,7 +124,7 @@ export default function PrizeGame() {
       </div>
 
       {/* Game Grid */}
-      <div className="grid grid-cols-4 gap-3 md:gap-4">
+      <div className="grid grid-cols-5 gap-3 md:gap-4">
         {prizes.map((prize, index) => (
           <Card
             key={index}
