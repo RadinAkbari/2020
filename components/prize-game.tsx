@@ -103,7 +103,7 @@ export default function PrizeGame() {
       <div className="mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-right">
           <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-2">
-            20 20 
+            20 20
           </h1>
           <p className="text-muted-foreground text-lg">CafetradeTV</p>
         </div>
@@ -144,10 +144,11 @@ export default function PrizeGame() {
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 opacity-60 group-hover:opacity-90 blur transition-opacity duration-500" />
 
                 {/* Unrevealed State */}
-                <div className="relative z-10 flex flex-col items-center justify-center h-full">
+                <div className="relative z-10 flex flex-col items-center justify-center h-full gap-2">
                   <div className="text-5xl md:text-6xl font-black text-white drop-shadow-lg">
                     {new Intl.NumberFormat("fa-IR").format(index + 1)}
                   </div>
+                  <img src="/logo.png" alt="logo" className="w-12 h-12 md:w-16 opacity-30 md:h-[26px]" />
                 </div>
               </>
             ) : (
@@ -163,6 +164,7 @@ export default function PrizeGame() {
                       {prize.label}
                     </p>
                   </div>
+                  <img src="/logo.png" alt="logo" className="w-8 h-8 md:w-10 md:h-10 opacity-20 mt-1" />
                 </div>
               </>
             )}
