@@ -163,7 +163,7 @@ export default function PrizeGame() {
                     <p className="text-xs md:text-sm font-bold text-foreground/70 mb-1">
                       {new Intl.NumberFormat("fa-IR").format(index + 1)}
                     </p>
-                    <p className="text-sm md:text-base font-black text-foreground text-balance leading-tight">
+                    <p className="font-black text-foreground text-balance leading-tight text-3xl">
                       {prize.label}
                     </p>
                   </div>
