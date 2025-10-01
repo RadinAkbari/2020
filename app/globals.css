@@ -4,39 +4,39 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color palette for purple-pinkish theme */
-  --background: #f8f0f8;
-  --foreground: #34495e;
-  --card: #ffffff;
-  --card-foreground: #34495e;
-  --popover: #9b59b6;
+  /* Updated to black theme with purple-pink accents */
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #1a1a1a;
+  --card-foreground: #ffffff;
+  --popover: #1a1a1a;
   --popover-foreground: #ffffff;
   --primary: #9b59b6;
   --primary-foreground: #ffffff;
   --secondary: #e91e63;
   --secondary-foreground: #ffffff;
-  --muted: #f8f0f8;
-  --muted-foreground: #34495e;
+  --muted: #2a2a2a;
+  --muted-foreground: #a0a0a0;
   --accent: #e91e63;
   --accent-foreground: #ffffff;
   --destructive: #dc2626;
   --destructive-foreground: #ffffff;
-  --border: #9b59b6;
-  --input: #ffffff;
+  --border: #333333;
+  --input: #1a1a1a;
   --ring: #e91e63;
   --chart-1: #9b59b6;
   --chart-2: #e91e63;
-  --chart-3: #34495e;
-  --chart-4: #f8f0f8;
-  --chart-5: #ffffff;
+  --chart-3: #ffffff;
+  --chart-4: #2a2a2a;
+  --chart-5: #1a1a1a;
   --radius: 0.5rem;
-  --sidebar: #f8f0f8;
-  --sidebar-foreground: #34495e;
+  --sidebar: #1a1a1a;
+  --sidebar-foreground: #ffffff;
   --sidebar-primary: #9b59b6;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #e91e63;
   --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: #9b59b6;
+  --sidebar-border: #333333;
   --sidebar-ring: #e91e63;
 }
 
@@ -76,8 +76,9 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Updated font to Vazir Matn */
+  --font-sans: var(--font-vazir-matn);
+  --font-mono: var(--font-vazir-matn);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

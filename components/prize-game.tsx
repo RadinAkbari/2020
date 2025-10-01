@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Card } from "@/components/ui/card"
-import { Gift, Sparkles, X, Ban, Skull } from "lucide-react"
+import { Gift, Sparkles, X, Ban, Skull, RotateCcw } from "lucide-react"
 
 type PrizeType = "money" | "negative" | "skip" | "null" | "gameover"
 
@@ -14,24 +14,16 @@ interface Prize {
 
 const basePrizes: Prize[] = [
   { type: "gameover", label: "گیم اور" },
+  { type: "money", amount: 3000000, label: "۳ میلیون تومان" },
   { type: "money", amount: 2500000, label: "۲.۵ میلیون تومان" },
   { type: "money", amount: 2000000, label: "۲ میلیون تومان" },
   { type: "money", amount: 1500000, label: "۱.۵ میلیون تومان" },
-  { type: "money", amount: 1000000, label: "۱ میلیون تومان" },
+  { type: "money", amount: 1200000, label: "۱.۲ میلیون تومان" },
   { type: "money", amount: 1000000, label: "۱ میلیون تومان" },
   { type: "money", amount: 800000, label: "۸۰۰ هزار تومان" },
-  { type: "money", amount: 700000, label: "۷۰۰ هزار تومان" },
-  { type: "money", amount: 500000, label: "۵۰۰ هزار تومان" },
-  { type: "money", amount: 500000, label: "۵۰۰ هزار تومان" },
-  { type: "money", amount: 300000, label: "۳۰۰ هزار تومان" },
-  { type: "money", amount: 200000, label: "۲۰۰ هزار تومان" },
-  { type: "negative", amount: -800000, label: "منفی ۸۰۰ هزار تومان" },
-  { type: "negative", amount: -600000, label: "منفی ۶۰۰ هزار تومان" },
-  { type: "negative", amount: -500000, label: "منفی ۵۰۰ هزار تومان" },
-  { type: "negative", amount: -400000, label: "منفی ۴۰۰ هزار تومان" },
+  { type: "negative", amount: -1000000, label: "منفی ۱ میلیون تومان" },
+  { type: "negative", amount: -1000000, label: "منفی ۱ میلیون تومان" },
   { type: "skip", label: "رد شو" },
-  { type: "null", label: "پوچ" },
-  { type: "null", label: "پوچ" },
   { type: "null", label: "پوچ" },
 ]
 
@@ -46,12 +38,18 @@ const shuffleArray = <T,>(array: T[]): T[] => {
 
 export default function PrizeGame() {
   const [prizes, setPrizes] = useState<Prize[]>([])
-  const [revealed, setRevealed] = useState<boolean[]>(new Array(20).fill(false))
+  const [revealed, setRevealed] = useState<boolean[]>(new Array(12).fill(false))
   const [totalWon, setTotalWon] = useState(0)
 
   useEffect(() => {
     setPrizes(shuffleArray(basePrizes))
   }, [])
+
+  const handleReset = () => {
+    setPrizes(shuffleArray(basePrizes))
+    setRevealed(new Array(12).fill(false))
+    setTotalWon(0)
+  }
 
   const handleSquareClick = (index: number) => {
     if (revealed[index]) return
@@ -106,9 +104,9 @@ export default function PrizeGame() {
       <div className="mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-right">
           <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-2">
-            20 20
+            20 20  
           </h1>
-          <p className="text-muted-foreground leading-7 text-2xl font-semibold">CafetradeTV</p>
+          <p className="leading-7 text-2xl font-semibold text-background">CafetradeTV</p>
         </div>
 
         <Card className="border-none shadow-none bg-transparent p-6 min-w-[280px]">
@@ -126,62 +124,76 @@ export default function PrizeGame() {
         </Card>
       </div>
 
-      {/* Game Grid */}
-      <div className="grid grid-cols-5 gap-3 md:gap-4">
-        {prizes.map((prize, index) => (
-          <Card
-            key={index}
-            onClick={() => handleSquareClick(index)}
-            className={`
-              aspect-square cursor-pointer transition-all duration-500 transform relative overflow-hidden group
-              ${
-                revealed[index]
-                  ? `${getPrizeColor(prize.type)} scale-105 shadow-xl`
-                  : "bg-zinc-900 hover:scale-105 shadow-lg hover:shadow-2xl border-purple-400"
-              }
-              flex flex-col items-center justify-center p-2 md:p-4
-            `}
-          >
-            {!revealed[index] ? (
-              <>
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 opacity-60 group-hover:opacity-90 blur transition-opacity duration-500" />
+      {/* Game Grid with Luxury Border Frame */}
+      <div className="relative p-1 rounded-2xl bg-gradient-to-br from-purple-500 via-pink-500 to-fuchsia-600 shadow-2xl">
+        {/* Inner border layer */}
+        <div className="relative p-1 rounded-2xl bg-gradient-to-br from-amber-400 via-yellow-300 to-amber-500">
+          {/* Dark background layer */}
+          <div className="relative p-6 md:p-8 rounded-xl bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 shadow-inner">
+            {/* Decorative corner accents */}
+            <div className="absolute top-2 left-2 w-8 h-8 border-t-2 border-l-2 border-amber-400/50 rounded-tl-lg" />
+            <div className="absolute top-2 right-2 w-8 h-8 border-t-2 border-r-2 border-amber-400/50 rounded-tr-lg" />
+            <div className="absolute bottom-2 left-2 w-8 h-8 border-b-2 border-l-2 border-amber-400/50 rounded-bl-lg" />
+            <div className="absolute bottom-2 right-2 w-8 h-8 border-b-2 border-r-2 border-amber-400/50 rounded-br-lg" />
 
-                {/* Unrevealed State */}
-                <div className="relative z-10 flex flex-col items-center justify-center h-full gap-2">
-                  <div className="text-5xl md:text-6xl font-black text-white drop-shadow-lg">
-                    {new Intl.NumberFormat("fa-IR").format(index + 1)}
-                  </div>
-                  <img src="/logo.png" alt="logo" className="w-12 h-12 md:w-16 opacity-30 md:h-[26px]" />
-                </div>
-              </>
-            ) : (
-              <>
-                {/* Revealed State */}
-                <div className="flex flex-col items-center justify-center gap-2 animate-in zoom-in duration-500">
-                  {getPrizeIcon(prize.type)}
-                  <div className="text-center">
-                    <p className="text-xs md:text-sm font-bold text-foreground/70 mb-1">
-                      {new Intl.NumberFormat("fa-IR").format(index + 1)}
-                    </p>
-                    <p className="font-black text-foreground text-balance leading-tight text-3xl">
-                      {prize.label}
-                    </p>
-                  </div>
-                  <img src="/logo.png" alt="logo" className="w-8 h-8 md:w-10 md:h-10 opacity-20 mt-1" />
-                </div>
-              </>
-            )}
-          </Card>
-        ))}
+            {/* Game Grid */}
+            <div className="grid grid-cols-4 gap-3 md:gap-4">
+              {prizes.map((prize, index) => (
+                <Card
+                  key={index}
+                  onClick={() => handleSquareClick(index)}
+                  className={`
+                    aspect-square cursor-pointer transition-all duration-500 transform relative overflow-hidden group
+                    ${
+                      revealed[index]
+                        ? `${getPrizeColor(prize.type)} scale-105 shadow-xl`
+                        : "bg-zinc-900 hover:scale-105 shadow-lg hover:shadow-2xl border-purple-400"
+                    }
+                    flex flex-col items-center justify-center p-2 md:p-4
+                  `}
+                >
+                  {!revealed[index] ? (
+                    <>
+                      <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 opacity-60 group-hover:opacity-90 blur transition-opacity duration-500" />
+
+                      {/* Unrevealed State */}
+                      <div className="relative z-10 flex flex-col items-center justify-center h-full gap-2">
+                        <div className="text-5xl md:text-6xl font-black text-white drop-shadow-lg">
+                          {new Intl.NumberFormat("fa-IR").format(index + 1)}
+                        </div>
+                        <img src="/logo.png" alt="logo" className="w-12 h-12 md:w-16 opacity-30 md:h-[26px]" />
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      {/* Revealed State */}
+                      <div className="flex flex-col items-center justify-center gap-2 animate-in zoom-in duration-500">
+                        {getPrizeIcon(prize.type)}
+                        <div className="text-center">
+                          <p className="text-xs md:text-sm font-bold text-white/70 mb-1">
+                            {new Intl.NumberFormat("fa-IR").format(index + 1)}
+                          </p>
+                          <p className="font-black text-black text-balance leading-tight text-3xl">{prize.label}</p>
+                        </div>
+                        <img src="/logo.png" alt="logo" className="w-8 h-8 md:w-10 md:h-10 opacity-20 mt-1" />
+                      </div>
+                    </>
+                  )}
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* Footer Info */}
-      <div className="mt-8 text-center">
-        <Card className="inline-block bg-white/80 backdrop-blur-sm border-purple-200 p-4">
-          <p className="text-sm text-muted-foreground">
-            مجموع کل جوایز: <span className="font-bold text-primary">۱۰ میلیون تومان</span>
-          </p>
-        </Card>
+      <div className="mt-6 flex justify-center">
+        <button
+          onClick={handleReset}
+          className="group relative px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+        >
+          <RotateCcw className="w-5 h-5 group-hover:rotate-180 transition-transform duration-500" />
+          <span>شروع مجدد بازی</span>
+        </button>
       </div>
     </div>
   )

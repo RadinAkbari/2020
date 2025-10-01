@@ -1,10 +1,15 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { GeistSans } from "geist/font/sans"
-import { GeistMono } from "geist/font/mono"
+import { Vazirmatn } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
+
+const vazirMatn = Vazirmatn({
+  subsets: ["arabic"],
+  variable: "--font-vazir-matn",
+  display: "swap",
+})
 
 export const metadata: Metadata = {
   title: "v0 App",
@@ -18,13 +23,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
-        <Suspense
-          fallback={<div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-purple-50" />}
-        >
-          {children}
-        </Suspense>
+    <html lang="fa" dir="rtl">
+      <body className={`font-sans ${vazirMatn.variable}`}>
+        <Suspense fallback={<div className="min-h-screen bg-black" />}>{children}</Suspense>
         <Analytics />
       </body>
     </html>
