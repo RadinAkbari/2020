@@ -103,21 +103,21 @@ export default function PrizeGame() {
       {/* Header with Prize Calculator */}
       <div className="mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-right">
-          <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-2">
-            20 20  
+          <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-500 mb-2">
+            20 20
           </h1>
           <p className="leading-7 text-2xl font-semibold text-background">CafetradeTV</p>
         </div>
 
         <Card className="border-none shadow-none bg-transparent p-6 min-w-[280px]">
           <div className="text-center">
-            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 text-sm font-semibold mb-2">
+            <p className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-500 text-sm font-semibold mb-2">
               مجموع جوایز برنده شده
             </p>
-            <div className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 mb-1">
+            <div className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-400 mb-1">
               {formatNumber(totalWon)}
             </div>
-            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 text-lg font-bold">
+            <p className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-500 text-lg font-bold">
               تومان
             </p>
           </div>
@@ -125,7 +125,7 @@ export default function PrizeGame() {
       </div>
 
       {/* Game Grid with Luxury Border Frame */}
-      <div className="relative p-1 rounded-2xl bg-gradient-to-br from-purple-500 via-pink-500 to-fuchsia-600 shadow-2xl">
+      <div className="relative p-1 rounded-2xl bg-gradient-to-br from-orange-500 via-amber-500 to-orange-600 shadow-2xl">
         {/* Inner border layer */}
         <div className="relative p-1 rounded-2xl bg-gradient-to-br from-amber-400 via-yellow-300 to-amber-500">
           {/* Dark background layer */}
@@ -147,14 +147,14 @@ export default function PrizeGame() {
                     ${
                       revealed[index]
                         ? `${getPrizeColor(prize.type)} scale-105 shadow-xl`
-                        : "bg-zinc-900 hover:scale-105 shadow-lg hover:shadow-2xl border-purple-400"
+                        : "bg-zinc-900 hover:scale-105 shadow-lg hover:shadow-2xl border-orange-400"
                     }
                     flex flex-col items-center justify-center p-2 md:p-4
                   `}
                 >
                   {!revealed[index] ? (
                     <>
-                      <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 opacity-60 group-hover:opacity-90 blur transition-opacity duration-500" />
+                      <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 opacity-60 group-hover:opacity-90 blur transition-opacity duration-500" />
 
                       {/* Unrevealed State */}
                       <div className="relative z-10 flex flex-col items-center justify-center h-full gap-2">
@@ -189,7 +189,7 @@ export default function PrizeGame() {
       <div className="mt-6 flex justify-center">
         <button
           onClick={handleReset}
-          className="group relative px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+          className="group relative px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-orange-600 to-amber-500 hover:from-orange-700 hover:to-amber-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
         >
           <RotateCcw className="w-5 h-5 group-hover:rotate-180 transition-transform duration-500" />
           <span>شروع مجدد بازی</span>
