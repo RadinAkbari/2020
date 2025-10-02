@@ -106,7 +106,7 @@ export default function PrizeGame() {
           <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-500 mb-2">
             20 20
           </h1>
-          <p className="leading-7 text-2xl font-semibold text-background">CafetradeTV</p>
+          <p className="leading-7 text-2xl font-semibold text-white">CafetradeTV</p>
         </div>
 
         <Card className="border-none shadow-none bg-transparent p-6 min-w-[280px]">
@@ -154,7 +154,7 @@ export default function PrizeGame() {
                 >
                   {!revealed[index] ? (
                     <>
-                      <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 opacity-60 group-hover:opacity-90 blur transition-opacity duration-500" />
+                      <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 opacity-90 group-hover:opacity-100 group-hover:from-orange-400 group-hover:via-amber-400 group-hover:to-orange-500 blur transition-all duration-500" />
 
                       {/* Unrevealed State */}
                       <div className="relative z-10 flex flex-col items-center justify-center h-full gap-2">
