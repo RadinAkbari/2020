@@ -60,7 +60,11 @@ export default function PrizeGame() {
   }, [])
 
   const showRandomQuestion = () => {
-    const availableIndices = questionsData.map((_, index) => index).filter((index) => !usedQuestionIndices.has(index))
+    const multipleChoiceQuestions = questionsData.filter((q) => q.choices && q.choices.length > 0)
+
+    const availableIndices = multipleChoiceQuestions
+      .map((_, index) => index)
+      .filter((index) => !usedQuestionIndices.has(index))
 
     if (availableIndices.length === 0) {
       // All questions used, reset
@@ -69,7 +73,7 @@ export default function PrizeGame() {
     }
 
     const randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)]
-    setCurrentQuestion(questionsData[randomIndex])
+    setCurrentQuestion(multipleChoiceQuestions[randomIndex])
     setUsedQuestionIndices((prev) => new Set([...prev, randomIndex]))
     setShowAnswer(false)
     setShowQuestionPopup(true)
