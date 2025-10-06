@@ -17,6 +17,7 @@ interface Question {
   source: string
   question: string
   answer: string
+  choices?: string[]
 }
 
 const basePrizes: Prize[] = [
@@ -143,7 +144,27 @@ export default function PrizeGame() {
             <div className="text-center space-y-6">
               <h2 className="text-3xl md:text-4xl font-black text-white leading-relaxed">{currentQuestion.question}</h2>
 
-              {showAnswer && (
+              {currentQuestion.choices && currentQuestion.choices.length > 0 && (
+                <div className="space-y-3 mt-6">
+                  {currentQuestion.choices.map((choice, index) => (
+                    <div
+                      key={index}
+                      className={`
+                        p-4 rounded-xl border-2 transition-all duration-500
+                        ${
+                          showAnswer && choice === currentQuestion.answer
+                            ? "bg-green-500/30 border-green-500 shadow-lg shadow-green-500/50"
+                            : "bg-white/10 border-white/30"
+                        }
+                      `}
+                    >
+                      <p className="text-xl md:text-2xl font-bold text-white leading-relaxed">{choice}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {showAnswer && (!currentQuestion.choices || currentQuestion.choices.length === 0) && (
                 <div className="animate-in fade-in zoom-in duration-500 bg-orange-500/20 border-2 border-orange-500 rounded-xl p-6">
                   <p className="text-sm text-orange-300 mb-2 font-semibold">پاسخ:</p>
                   <p className="text-2xl md:text-3xl font-black text-white leading-relaxed">{currentQuestion.answer}</p>
