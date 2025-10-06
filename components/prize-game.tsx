@@ -151,12 +151,19 @@ export default function PrizeGame() {
               )}
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                {!showAnswer && (
+                {!showAnswer ? (
                   <button
                     onClick={handleRevealAnswer}
                     className="px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-green-600 to-emerald-500 hover:from-green-700 hover:to-emerald-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                   >
                     نمایش پاسخ
+                  </button>
+                ) : (
+                  <button
+                    onClick={showRandomQuestion}
+                    className="px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                  >
+                    سوال دیگر بپرس
                   </button>
                 )}
                 <button
