@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { Card } from "@/components/ui/card"
-import { Gift, Sparkles, X, Ban, Skull, RotateCcw } from "lucide-react"
+import { Gift, Sparkles, X, Ban, Skull, RotateCcw, HelpCircle } from "lucide-react"
+import questionsData from "@/data/questions.json"
 
 type PrizeType = "money" | "negative" | "skip" | "null" | "gameover"
 
@@ -10,6 +11,12 @@ interface Prize {
   type: PrizeType
   amount?: number
   label: string
+}
+
+interface Question {
+  source: string
+  question: string
+  answer: string
 }
 
 const basePrizes: Prize[] = [
@@ -41,14 +48,44 @@ export default function PrizeGame() {
   const [revealed, setRevealed] = useState<boolean[]>(new Array(12).fill(false))
   const [totalWon, setTotalWon] = useState(0)
 
+  const [showQuestionPopup, setShowQuestionPopup] = useState(false)
+  const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null)
+  const [showAnswer, setShowAnswer] = useState(false)
+  const [usedQuestionIndices, setUsedQuestionIndices] = useState<Set<number>>(new Set())
+
   useEffect(() => {
     setPrizes(shuffleArray(basePrizes))
+    showRandomQuestion()
   }, [])
+
+  const showRandomQuestion = () => {
+    const availableIndices = questionsData.map((_, index) => index).filter((index) => !usedQuestionIndices.has(index))
+
+    if (availableIndices.length === 0) {
+      // All questions used, reset
+      setUsedQuestionIndices(new Set())
+      return showRandomQuestion()
+    }
+
+    const randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)]
+    setCurrentQuestion(questionsData[randomIndex])
+    setUsedQuestionIndices((prev) => new Set([...prev, randomIndex]))
+    setShowAnswer(false)
+    setShowQuestionPopup(true)
+  }
 
   const handleReset = () => {
     setPrizes(shuffleArray(basePrizes))
     setRevealed(new Array(12).fill(false))
     setTotalWon(0)
+  }
+
+  const handleOpenSquare = () => {
+    setShowQuestionPopup(false)
+  }
+
+  const handleRevealAnswer = () => {
+    setShowAnswer(true)
   }
 
   const handleSquareClick = (index: number) => {
@@ -100,6 +137,40 @@ export default function PrizeGame() {
 
   return (
     <div className="max-w-6xl mx-auto" dir="rtl">
+      {showQuestionPopup && currentQuestion && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+          <Card className="max-w-2xl w-full bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 border-orange-500/50 p-8 shadow-2xl">
+            <div className="text-center space-y-6">
+              <h2 className="text-3xl md:text-4xl font-black text-white leading-relaxed">{currentQuestion.question}</h2>
+
+              {showAnswer && (
+                <div className="animate-in fade-in zoom-in duration-500 bg-orange-500/20 border-2 border-orange-500 rounded-xl p-6">
+                  <p className="text-sm text-orange-300 mb-2 font-semibold">پاسخ:</p>
+                  <p className="text-2xl md:text-3xl font-black text-white leading-relaxed">{currentQuestion.answer}</p>
+                </div>
+              )}
+
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                {!showAnswer && (
+                  <button
+                    onClick={handleRevealAnswer}
+                    className="px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-green-600 to-emerald-500 hover:from-green-700 hover:to-emerald-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                  >
+                    نمایش پاسخ
+                  </button>
+                )}
+                <button
+                  onClick={handleOpenSquare}
+                  className="px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-orange-600 to-amber-500 hover:from-orange-700 hover:to-amber-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                >
+                  باز کردن خانه
+                </button>
+              </div>
+            </div>
+          </Card>
+        </div>
+      )}
+
       {/* Header with Prize Calculator */}
       <div className="mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-right">
@@ -186,10 +257,17 @@ export default function PrizeGame() {
         </div>
       </div>
 
-      <div className="mt-6 flex justify-center">
+      <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+        <button
+          onClick={showRandomQuestion}
+          className="group relative px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+        >
+          <HelpCircle className="w-5 h-5" />
+          <span>سوال بپرس</span>
+        </button>
         <button
           onClick={handleReset}
-          className="group relative px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-orange-600 to-amber-500 hover:from-orange-700 hover:to-amber-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+          className="group relative px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-orange-600 to-amber-500 hover:from-orange-700 hover:to-amber-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
         >
           <RotateCcw className="w-5 h-5 group-hover:rotate-180 transition-transform duration-500" />
           <span>شروع مجدد بازی</span>
