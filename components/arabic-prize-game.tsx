@@ -23,15 +23,15 @@ interface Question {
 
 const basePrizes: Prize[] = [
   { type: "gameover", label: "انتهت اللعبة" },
-  { type: "money", amount: 3000000, label: "٣ ملايين تومان" },
-  { type: "money", amount: 2500000, label: "٢.٥ مليون تومان" },
-  { type: "money", amount: 2000000, label: "٢ مليون تومان" },
-  { type: "money", amount: 1500000, label: "١.٥ مليون تومان" },
-  { type: "money", amount: 1200000, label: "١.٢ مليون تومان" },
-  { type: "money", amount: 1000000, label: "١ مليون تومان" },
-  { type: "money", amount: 800000, label: "٨٠٠ ألف تومان" },
-  { type: "negative", amount: -1000000, label: "ناقص ١ مليون تومان" },
-  { type: "negative", amount: -1000000, label: "ناقص ١ مليون تومان" },
+  { type: "money", amount: 18.75, label: "١٨.٧٥ دولار" },
+  { type: "money", amount: 15.625, label: "١٥.٦٢٥ دولار" },
+  { type: "money", amount: 12.5, label: "١٢.٥ دولار" },
+  { type: "money", amount: 9.375, label: "٩.٣٧٥ دولار" },
+  { type: "money", amount: 7.5, label: "٧.٥ دولار" },
+  { type: "money", amount: 6.25, label: "٦.٢٥ دولار" },
+  { type: "money", amount: 5, label: "٥ دولارات" },
+  { type: "negative", amount: -6.25, label: "ناقص ٦.٢٥ دولار" },
+  { type: "negative", amount: -6.25, label: "ناقص ٦.٢٥ دولار" },
   { type: "skip", label: "تجاوز" },
   { type: "null", label: "فارغ" },
 ]
@@ -226,7 +226,7 @@ export default function ArabicPrizeGame() {
               {formatNumber(totalWon)}
             </div>
             <p className="bg-gradient-to-r from-orange-600 to-amber-500 bg-clip-text text-lg font-bold text-transparent">
-              تومان
+              دولار
             </p>
           </div>
         </Card>
