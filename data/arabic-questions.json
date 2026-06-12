@@ -1,0 +1,962 @@
+[
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة فرنسا؟",
+    "answer": "باريس",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما أكبر كوكب في المجموعة الشمسية؟",
+    "answer": "المشتري",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما أصغر دولة مستقلة في العالم؟",
+    "answer": "الفاتيكان",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "من كتب سلسلة هاري بوتر؟",
+    "answer": "ج. ك. رولينغ",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "من أخرج فيلم حديقة الديناصورات؟",
+    "answer": "ستيفن سبيلبرغ",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما أكبر دولة في العالم من حيث المساحة؟",
+    "answer": "روسيا",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة كندا؟",
+    "answer": "أوتاوا",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "لوحة الصرخة من أعمال أي رسام؟",
+    "answer": "إدفارد مونك",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "في أي عام سقط جدار برلين؟",
+    "answer": "١٩٨٩",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الغاز الأكثر وجودا في الغلاف الجوي للأرض؟",
+    "answer": "النيتروجين",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "في أي عام غرقت سفينة تايتانيك؟",
+    "answer": "١٩١٢",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "من كان أول إنسان يسافر إلى الفضاء؟",
+    "answer": "يوري غاغارين",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما أكبر دولة منتجة للقهوة في العالم؟",
+    "answer": "البرازيل",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الكوكب الأكثر حرارة في المجموعة الشمسية؟",
+    "answer": "الزهرة",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "في أي دولة تقع أهرامات الجيزة؟",
+    "answer": "مصر",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما المدينة التي يقع فيها برج خليفة؟",
+    "answer": "دبي",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "من وضع نظرية التطور؟",
+    "answer": "تشارلز داروين",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما اللغة الرسمية في البرازيل؟",
+    "answer": "البرتغالية",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما أطول نهر في العالم؟",
+    "answer": "النيل",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة اليابان؟",
+    "answer": "طوكيو",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم عدد ألوان قوس قزح؟",
+    "answer": "سبعة ألوان",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما العضو الذي يضخ الدم في جسم الإنسان؟",
+    "answer": "القلب",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما المعدن السائل في درجة حرارة الغرفة؟",
+    "answer": "الزئبق",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم عدد قارات العالم؟",
+    "answer": "سبع قارات",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما المحيط الأكبر في العالم؟",
+    "answer": "المحيط الهادئ",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "من هو مؤلف مقدمة ابن خلدون؟",
+    "answer": "ابن خلدون",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "في أي مدينة توجد الكعبة؟",
+    "answer": "مكة المكرمة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة المملكة العربية السعودية؟",
+    "answer": "الرياض",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة مصر؟",
+    "answer": "القاهرة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة المغرب؟",
+    "answer": "الرباط",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة الأردن؟",
+    "answer": "عمان",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة قطر؟",
+    "answer": "الدوحة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة الإمارات العربية المتحدة؟",
+    "answer": "أبوظبي",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة سلطنة عمان؟",
+    "answer": "مسقط",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة تونس؟",
+    "answer": "تونس",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما عاصمة الجزائر؟",
+    "answer": "الجزائر",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما البحر الذي تطل عليه مدينة الإسكندرية؟",
+    "answer": "البحر الأبيض المتوسط",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما العملة الرسمية في السعودية؟",
+    "answer": "الريال السعودي",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما العملة الرسمية في الإمارات؟",
+    "answer": "الدرهم الإماراتي",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "أي دولة عربية تشتهر بمدينة البتراء الأثرية؟",
+    "answer": "الأردن",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "أي دولة عربية تشتهر بمدينة قرطاج التاريخية؟",
+    "answer": "تونس",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما المضيق الذي يفصل المغرب عن إسبانيا؟",
+    "answer": "مضيق جبل طارق",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما اسم البحر الواقع بين السعودية والسودان ومصر؟",
+    "answer": "البحر الأحمر",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "من هو الشاعر العربي الملقب بالمتنبي؟",
+    "answer": "أبو الطيب المتنبي",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "من كتب رواية أولاد حارتنا؟",
+    "answer": "نجيب محفوظ",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "من هو العالم العربي الذي اشتهر بكتاب المناظر؟",
+    "answer": "ابن الهيثم",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الدولة العربية التي تقع فيها مدينة مراكش؟",
+    "answer": "المغرب",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الدولة العربية التي تقع فيها مدينة الأقصر؟",
+    "answer": "مصر",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "أي مدينة سعودية تشتهر بالمسجد النبوي؟",
+    "answer": "المدينة المنورة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الخليج الذي تطل عليه الكويت وقطر والبحرين؟",
+    "answer": "الخليج العربي",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم عدد لاعبي فريق كرة القدم داخل الملعب؟",
+    "answer": "أحد عشر لاعبا",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم دقيقة في الساعة الواحدة؟",
+    "answer": "ستون دقيقة",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الحيوان المعروف بلقب ملك الغابة؟",
+    "answer": "الأسد",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة أستراليا؟",
+    "answer": "كانبرا",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة إيطاليا؟",
+    "answer": "روما",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة إسبانيا؟",
+    "answer": "مدريد",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة ألمانيا؟",
+    "answer": "برلين",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الكوكب الأحمر؟",
+    "answer": "المريخ",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما وحدة قياس شدة التيار الكهربائي؟",
+    "answer": "الأمبير",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الرمز الكيميائي للماء؟",
+    "answer": "H2O",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة لبنان؟",
+    "answer": "بيروت",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة العراق؟",
+    "answer": "بغداد",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة سوريا؟",
+    "answer": "دمشق",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة الكويت؟",
+    "answer": "مدينة الكويت",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة البحرين؟",
+    "answer": "المنامة",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة السودان؟",
+    "answer": "الخرطوم",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة ليبيا؟",
+    "answer": "طرابلس",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة اليمن؟",
+    "answer": "صنعاء",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة موريتانيا؟",
+    "answer": "نواكشوط",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة الصومال؟",
+    "answer": "مقديشو",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة جيبوتي؟",
+    "answer": "جيبوتي",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة جزر القمر؟",
+    "answer": "موروني",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة فلسطين؟",
+    "answer": "القدس",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة تركيا؟",
+    "answer": "أنقرة",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة المملكة المتحدة؟",
+    "answer": "لندن",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة الولايات المتحدة الأمريكية؟",
+    "answer": "واشنطن العاصمة",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة الصين؟",
+    "answer": "بكين",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة الهند؟",
+    "answer": "نيودلهي",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة كوريا الجنوبية؟",
+    "answer": "سيول",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة الأرجنتين؟",
+    "answer": "بوينس آيرس",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة البرازيل؟",
+    "answer": "برازيليا",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما عاصمة جنوب أفريقيا الإدارية؟",
+    "answer": "بريتوريا",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما أعلى جبل في العالم؟",
+    "answer": "جبل إيفرست",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما أكبر صحراء حارة في العالم؟",
+    "answer": "الصحراء الكبرى",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما أكبر جزيرة في العالم؟",
+    "answer": "غرينلاند",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "أي محيط يقع بين أفريقيا وأستراليا؟",
+    "answer": "المحيط الهندي",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما البحر الذي يفصل أوروبا عن أفريقيا عند المغرب وإسبانيا؟",
+    "answer": "البحر الأبيض المتوسط",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "في أي قارة تقع البرازيل؟",
+    "answer": "أمريكا الجنوبية",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "في أي قارة تقع كينيا؟",
+    "answer": "أفريقيا",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي تشتهر بتمثال الحرية؟",
+    "answer": "الولايات المتحدة الأمريكية",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "في أي دولة تقع مدينة البندقية؟",
+    "answer": "إيطاليا",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما اسم القناة التي تربط البحر الأحمر بالبحر الأبيض المتوسط؟",
+    "answer": "قناة السويس",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي يقع فيها تاج محل؟",
+    "answer": "الهند",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي يقع فيها سور الصين العظيم؟",
+    "answer": "الصين",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "كم عدد كواكب المجموعة الشمسية؟",
+    "answer": "ثمانية كواكب",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما أقرب كوكب إلى الشمس؟",
+    "answer": "عطارد",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما الكوكب المعروف بحلقاته الكبيرة؟",
+    "answer": "زحل",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما النجم الأقرب إلى الأرض؟",
+    "answer": "الشمس",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما الجهاز المسؤول عن التنفس في جسم الإنسان؟",
+    "answer": "الجهاز التنفسي",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما أكبر عضو في جسم الإنسان؟",
+    "answer": "الجلد",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "كم عدد عظام الإنسان البالغ تقريبا؟",
+    "answer": "٢٠٦ عظام",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العضو المسؤول عن تنقية الدم في جسم الإنسان؟",
+    "answer": "الكلى",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العنصر الكيميائي الذي رمزه O؟",
+    "answer": "الأكسجين",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العنصر الكيميائي الذي رمزه Fe؟",
+    "answer": "الحديد",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما الغاز الذي تحتاجه النباتات في عملية البناء الضوئي؟",
+    "answer": "ثاني أكسيد الكربون",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما وحدة قياس درجة الحرارة في النظام الدولي؟",
+    "answer": "الكلفن",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما وحدة قياس القوة؟",
+    "answer": "النيوتن",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما سرعة الضوء تقريبا؟",
+    "answer": "٣٠٠ ألف كيلومتر في الثانية",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "من اكتشف قانون الجاذبية؟",
+    "answer": "إسحاق نيوتن",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "من وضع نظرية النسبية؟",
+    "answer": "ألبرت أينشتاين",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما اسم المجرة التي تنتمي إليها الأرض؟",
+    "answer": "درب التبانة",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العملية التي يتحول فيها الماء إلى بخار؟",
+    "answer": "التبخر",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "كم عدد اللاعبين في فريق كرة السلة داخل الملعب؟",
+    "answer": "خمسة لاعبين",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "كم عدد الحلقات في شعار الألعاب الأولمبية؟",
+    "answer": "خمس حلقات",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما الرياضة التي يستخدم فيها المضرب والريشة؟",
+    "answer": "الريشة الطائرة",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما الرياضة التي اشتهر بها مايكل جوردن؟",
+    "answer": "كرة السلة",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما الرياضة التي اشتهر بها محمد علي كلاي؟",
+    "answer": "الملاكمة",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "كم شوطا في مباراة كرة القدم الرسمية؟",
+    "answer": "شوطان",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "كم دقيقة مدة الشوط الواحد في كرة القدم؟",
+    "answer": "٤٥ دقيقة",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما لون البطاقة التي تعني الطرد في كرة القدم؟",
+    "answer": "البطاقة الحمراء",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "من أول رئيس للولايات المتحدة الأمريكية؟",
+    "answer": "جورج واشنطن",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "في أي دولة بدأت الثورة الصناعية؟",
+    "answer": "بريطانيا",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "في أي عام انتهت الحرب العالمية الثانية؟",
+    "answer": "١٩٤٥",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "في أي عام هبط الإنسان على القمر لأول مرة؟",
+    "answer": "١٩٦٩",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "ما اسم السفينة التي أقلت الحجاج الإنجليز إلى أمريكا عام ١٦٢٠؟",
+    "answer": "مايفلاور",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "من كانت ملكة مصر القديمة الشهيرة المرتبطة بيوليوس قيصر ومارك أنطونيوس؟",
+    "answer": "كليوباترا",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "ما المدينة الإيطالية التي دمرها بركان فيزوف عام ٧٩ ميلاديا؟",
+    "answer": "بومبي",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "ما الإمبراطورية التي بنت الكولوسيوم؟",
+    "answer": "الإمبراطورية الرومانية",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "من كتب رواية موسم الهجرة إلى الشمال؟",
+    "answer": "الطيب صالح",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "من كتب رواية رجال في الشمس؟",
+    "answer": "غسان كنفاني",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "من هو شاعر النيل؟",
+    "answer": "حافظ إبراهيم",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "من هو أمير الشعراء؟",
+    "answer": "أحمد شوقي",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما اسم الخط العربي الذي يكثر استخدامه في كتابة المصاحف؟",
+    "answer": "خط النسخ",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الشهر الذي يصوم فيه المسلمون؟",
+    "answer": "رمضان",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما العيد الذي يأتي بعد شهر رمضان؟",
+    "answer": "عيد الفطر",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما اسم الكتاب المقدس في الإسلام؟",
+    "answer": "القرآن الكريم",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما اللغة الرسمية المشتركة في دول جامعة الدول العربية؟",
+    "answer": "العربية",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "في أي دولة عربية تقع مدينة فاس؟",
+    "answer": "المغرب",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "في أي دولة عربية تقع مدينة حلب؟",
+    "answer": "سوريا",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "في أي دولة عربية تقع مدينة بعلبك؟",
+    "answer": "لبنان",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "أي دولة عربية تشتهر بجزيرة جربة؟",
+    "answer": "تونس",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "أي دولة عربية تشتهر بوادي رم؟",
+    "answer": "الأردن",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الحيوان الذي يلقب بسفينة الصحراء؟",
+    "answer": "الجمل",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما أسرع حيوان بري؟",
+    "answer": "الفهد الصياد",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما أكبر حيوان على الأرض؟",
+    "answer": "الحوت الأزرق",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الحيوان الذي ينتج العسل؟",
+    "answer": "النحل",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الطائر الذي لا يستطيع الطيران ويعيش في القطب الجنوبي؟",
+    "answer": "البطريق",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما اللون الناتج عن مزج الأحمر والأصفر؟",
+    "answer": "البرتقالي",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم يوما في السنة الكبيسة؟",
+    "answer": "٣٦٦ يوما",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم شهرا في السنة؟",
+    "answer": "اثنا عشر شهرا",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم ساعة في اليوم؟",
+    "answer": "٢٤ ساعة",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما أول شهر في التقويم الميلادي؟",
+    "answer": "يناير",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما آخر شهر في التقويم الميلادي؟",
+    "answer": "ديسمبر",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الأداة التي تستخدم لمعرفة الاتجاهات؟",
+    "answer": "البوصلة",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الجهاز الذي يقيس درجة الحرارة؟",
+    "answer": "الترمومتر",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الجهاز الذي يقيس الضغط الجوي؟",
+    "answer": "البارومتر",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الفاكهة التي يشتهر بها عصير الليمون؟",
+    "answer": "الليمون",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما المادة التي يصنع منها الزجاج غالبا؟",
+    "answer": "الرمل",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما المادة الأساسية في صناعة الورق؟",
+    "answer": "لب الخشب",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما اسم الجهاز المستخدم لالتقاط الصور؟",
+    "answer": "الكاميرا",
+    "choices": []
+  }
+]
