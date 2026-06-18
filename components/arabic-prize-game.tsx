@@ -23,15 +23,15 @@ interface Question {
 
 const basePrizes: Prize[] = [
   { type: "gameover", label: "انتهت اللعبة" },
-  { type: "money", amount: 18.75, label: "١٨.٧٥ دولار" },
-  { type: "money", amount: 15.625, label: "١٥.٦٢٥ دولار" },
-  { type: "money", amount: 12.5, label: "١٢.٥ دولار" },
-  { type: "money", amount: 9.375, label: "٩.٣٧٥ دولار" },
-  { type: "money", amount: 7.5, label: "٧.٥ دولار" },
-  { type: "money", amount: 6.25, label: "٦.٢٥ دولار" },
-  { type: "money", amount: 5, label: "٥ دولار" },
-  { type: "negative", amount: -6.25, label: "ناقص ٦.٢٥ دولار" },
-  { type: "negative", amount: -6.25, label: "ناقص ٦.٢٥ دولار" },
+  { type: "money", amount: 18.75, label: "18.75 دولار" },
+  { type: "money", amount: 15.625, label: "15.625 دولار" },
+  { type: "money", amount: 12.5, label: "12.5 دولار" },
+  { type: "money", amount: 9.375, label: "9.375 دولار" },
+  { type: "money", amount: 7.5, label: "7.5 دولار" },
+  { type: "money", amount: 6.25, label: "6.25 دولار" },
+  { type: "money", amount: 5, label: "5 دولار" },
+  { type: "negative", amount: -6.25, label: "ناقص 6.25 دولار" },
+  { type: "negative", amount: -6.25, label: "ناقص 6.25 دولار" },
   { type: "skip", label: "تجاوز" },
   { type: "null", label: "فارغ" },
 ]
@@ -109,7 +109,7 @@ export default function ArabicPrizeGame() {
   }
 
   const formatNumber = (num: number) => {
-    return new Intl.NumberFormat("ar").format(Math.abs(num))
+    return new Intl.NumberFormat("en-US").format(Math.abs(num))
   }
 
   const getPrizeIcon = (type: PrizeType) => {
@@ -211,10 +211,7 @@ export default function ArabicPrizeGame() {
 
       <div className="mb-8 flex flex-col items-center justify-between gap-4 md:flex-row">
         <div className="text-center md:text-right">
-          <h1 className="mb-2 bg-gradient-to-r from-orange-600 to-amber-500 bg-clip-text text-4xl font-black text-transparent md:text-5xl">
-            ٢٠ ٢٠
-          </h1>
-          <p className="text-2xl font-semibold leading-7 text-white">نبض بلس</p>
+          <h1 className="text-4xl font-black leading-10 text-white md:text-5xl">نبض بلس</h1>
         </div>
 
         <Card className="min-w-[280px] border-none bg-transparent p-6 shadow-none">
