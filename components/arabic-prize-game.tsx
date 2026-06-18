@@ -29,7 +29,7 @@ const basePrizes: Prize[] = [
   { type: "money", amount: 9.375, label: "٩.٣٧٥ دولار" },
   { type: "money", amount: 7.5, label: "٧.٥ دولار" },
   { type: "money", amount: 6.25, label: "٦.٢٥ دولار" },
-  { type: "money", amount: 5, label: "٥ دولارات" },
+  { type: "money", amount: 5, label: "٥ دولار" },
   { type: "negative", amount: -6.25, label: "ناقص ٦.٢٥ دولار" },
   { type: "negative", amount: -6.25, label: "ناقص ٦.٢٥ دولار" },
   { type: "skip", label: "تجاوز" },
@@ -214,7 +214,7 @@ export default function ArabicPrizeGame() {
           <h1 className="mb-2 bg-gradient-to-r from-orange-600 to-amber-500 bg-clip-text text-4xl font-black text-transparent md:text-5xl">
             ٢٠ ٢٠
           </h1>
-          <p className="text-2xl font-semibold leading-7 text-white">CafetradeTV</p>
+          <p className="text-2xl font-semibold leading-7 text-white">نبض بلس</p>
         </div>
 
         <Card className="min-w-[280px] border-none bg-transparent p-6 shadow-none">
@@ -261,9 +261,8 @@ export default function ArabicPrizeGame() {
 
                       <div className="relative z-10 flex h-full flex-col items-center justify-center gap-2">
                         <div className="text-5xl font-black text-white drop-shadow-lg md:text-6xl">
-                          {new Intl.NumberFormat("ar").format(index + 1)}
+                          {new Intl.NumberFormat("en-US").format(index + 1)}
                         </div>
-                        <img src="/logo.png" alt="logo" className="h-12 w-12 opacity-30 md:h-[26px] md:w-16" />
                       </div>
                     </>
                   ) : (
@@ -271,11 +270,10 @@ export default function ArabicPrizeGame() {
                       {getPrizeIcon(prize.type)}
                       <div className="text-center">
                         <p className="mb-1 text-xs font-bold text-black/50 md:text-sm">
-                          {new Intl.NumberFormat("ar").format(index + 1)}
+                          {new Intl.NumberFormat("en-US").format(index + 1)}
                         </p>
                         <p className="text-balance text-3xl font-black leading-tight text-black">{prize.label}</p>
                       </div>
-                      <img src="/logo.png" alt="logo" className="mt-1 h-8 w-8 opacity-20 md:h-10 md:w-10" />
                     </div>
                   )}
                 </Card>

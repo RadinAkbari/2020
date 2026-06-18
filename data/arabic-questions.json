@@ -958,5 +958,605 @@
     "question": "ما اسم الجهاز المستخدم لالتقاط الصور؟",
     "answer": "الكاميرا",
     "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة النرويج؟",
+    "answer": "أوسلو",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة السويد؟",
+    "answer": "ستوكهولم",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة الدنمارك؟",
+    "answer": "كوبنهاغن",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة فنلندا؟",
+    "answer": "هلسنكي",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة هولندا؟",
+    "answer": "أمستردام",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة بلجيكا؟",
+    "answer": "بروكسل",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة سويسرا؟",
+    "answer": "برن",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة النمسا؟",
+    "answer": "فيينا",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة اليونان؟",
+    "answer": "أثينا",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما عاصمة البرتغال؟",
+    "answer": "لشبونة",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي تقع فيها مدينة برشلونة؟",
+    "answer": "إسبانيا",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي تقع فيها مدينة ميونخ؟",
+    "answer": "ألمانيا",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي تقع فيها مدينة مرسيليا؟",
+    "answer": "فرنسا",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي تقع فيها مدينة الإسكندرية؟",
+    "answer": "مصر",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي تقع فيها مدينة جدة؟",
+    "answer": "السعودية",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما الدولة التي تقع فيها مدينة طنجة؟",
+    "answer": "المغرب",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما النهر الذي يمر بمدينة بغداد؟",
+    "answer": "نهر دجلة",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما النهر الذي يمر بمدينة القاهرة؟",
+    "answer": "نهر النيل",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما البحر الذي تطل عليه مدينة بيروت؟",
+    "answer": "البحر الأبيض المتوسط",
+    "choices": []
+  },
+  {
+    "source": "arabic_geography",
+    "question": "ما البحر الذي تطل عليه مدينة جدة؟",
+    "answer": "البحر الأحمر",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما الكوكب الذي يعرف بالكوكب الأزرق؟",
+    "answer": "الأرض",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما القمر الطبيعي الوحيد للأرض؟",
+    "answer": "القمر",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما اسم القوة التي تجذب الأجسام نحو الأرض؟",
+    "answer": "الجاذبية",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما الحالة التي يكون عليها الماء عند التجمد؟",
+    "answer": "صلبة",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العملية العكسية للتبخر؟",
+    "answer": "التكاثف",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما مصدر الطاقة الرئيسي للأرض؟",
+    "answer": "الشمس",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العضو المسؤول عن التفكير في جسم الإنسان؟",
+    "answer": "الدماغ",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العضو الذي نستخدمه في السمع؟",
+    "answer": "الأذن",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العضو الذي نستخدمه في الرؤية؟",
+    "answer": "العين",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العضو الذي نستخدمه في الشم؟",
+    "answer": "الأنف",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العنصر الكيميائي الذي رمزه Au؟",
+    "answer": "الذهب",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العنصر الكيميائي الذي رمزه Ag؟",
+    "answer": "الفضة",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العنصر الكيميائي الذي رمزه Na؟",
+    "answer": "الصوديوم",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العنصر الكيميائي الذي رمزه C؟",
+    "answer": "الكربون",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما الجهاز الذي يستخدم لقياس الزلازل؟",
+    "answer": "السيزموجراف",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العلم الذي يدرس الطقس والمناخ؟",
+    "answer": "علم الأرصاد الجوية",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العلم الذي يدرس الكائنات الحية؟",
+    "answer": "علم الأحياء",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العلم الذي يدرس المادة وتغيراتها؟",
+    "answer": "الكيمياء",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما العلم الذي يدرس الحركة والطاقة؟",
+    "answer": "الفيزياء",
+    "choices": []
+  },
+  {
+    "source": "arabic_science",
+    "question": "ما اسم المادة الوراثية في الخلايا؟",
+    "answer": "DNA",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ماذا تعني اختصارات CPU في الحاسوب؟",
+    "answer": "وحدة المعالجة المركزية",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ماذا تعني اختصارات RAM في الحاسوب؟",
+    "answer": "ذاكرة الوصول العشوائي",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ما الجهاز المستخدم لإدخال النصوص إلى الحاسوب؟",
+    "answer": "لوحة المفاتيح",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ما الجهاز المستخدم لتحريك المؤشر على الشاشة؟",
+    "answer": "الفأرة",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ما اسم الشبكة العالمية التي تربط الحواسيب؟",
+    "answer": "الإنترنت",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ما اسم الرسالة الرقمية التي ترسل عبر الإنترنت؟",
+    "answer": "البريد الإلكتروني",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ما صيغة الملفات الشائعة للصور الفوتوغرافية؟",
+    "answer": "JPEG",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ما صيغة الملفات الشائعة للمستندات الثابتة؟",
+    "answer": "PDF",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ما الشركة التي طورت نظام ويندوز؟",
+    "answer": "مايكروسوفت",
+    "choices": []
+  },
+  {
+    "source": "arabic_tech",
+    "question": "ما الشركة التي تطور نظام أندرويد؟",
+    "answer": "غوغل",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما جمع كلمة كتاب؟",
+    "answer": "كتب",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما ضد كلمة كبير؟",
+    "answer": "صغير",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما ضد كلمة سريع؟",
+    "answer": "بطيء",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما مرادف كلمة بحر؟",
+    "answer": "يم",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما اسم الجملة التي تبدأ باسم؟",
+    "answer": "جملة اسمية",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما اسم الجملة التي تبدأ بفعل؟",
+    "answer": "جملة فعلية",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما علامة رفع المثنى؟",
+    "answer": "الألف",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما علامة نصب جمع المذكر السالم؟",
+    "answer": "الياء",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما الحرف الأول في الأبجدية العربية؟",
+    "answer": "الألف",
+    "choices": []
+  },
+  {
+    "source": "arabic_language",
+    "question": "ما الحرف الأخير في الأبجدية العربية؟",
+    "answer": "الياء",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "من قاد حملة اكتشاف الطريق البحري إلى الهند حول رأس الرجاء الصالح؟",
+    "answer": "فاسكو دا غاما",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "من اخترع المصباح الكهربائي المتوهج تجاريا؟",
+    "answer": "توماس إديسون",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "من اكتشف البنسلين؟",
+    "answer": "ألكسندر فليمنغ",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "من رسم لوحة الموناليزا؟",
+    "answer": "ليوناردو دا فينشي",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "من ألف كتاب الأمير؟",
+    "answer": "نيكولو مكيافيلي",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "من كتب مسرحية هاملت؟",
+    "answer": "ويليام شكسبير",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "أي حضارة قديمة بنت الأهرامات في مصر؟",
+    "answer": "الحضارة المصرية القديمة",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "ما المدينة التي كانت عاصمة الدولة العباسية؟",
+    "answer": "بغداد",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "ما المدينة التي كانت عاصمة الدولة الأموية؟",
+    "answer": "دمشق",
+    "choices": []
+  },
+  {
+    "source": "arabic_history",
+    "question": "ما اسم الرحالة المغربي الشهير في القرن الرابع عشر؟",
+    "answer": "ابن بطوطة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الطبق الشامي المصنوع من الحمص والطحينة؟",
+    "answer": "الحمص",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الطبق الشعبي المصري المصنوع من الفول؟",
+    "answer": "الفول المدمس",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الطبق المغربي الشهير الذي يطهى غالبا في إناء مخروطي؟",
+    "answer": "الطاجين",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الطبق الخليجي الشهير المصنوع من الأرز واللحم أو الدجاج؟",
+    "answer": "الكبسة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الحلوى الشامية المصنوعة من العجين والمكسرات والقطر؟",
+    "answer": "البقلاوة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما المشروب العربي التقليدي المصنوع من حبوب البن؟",
+    "answer": "القهوة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما آلة موسيقية عربية وترية تشبه الكمثرى؟",
+    "answer": "العود",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما آلة إيقاعية عربية تشبه الطبلة الصغيرة؟",
+    "answer": "الدربكة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما الرقصة الشعبية المعروفة في بلاد الشام؟",
+    "answer": "الدبكة",
+    "choices": []
+  },
+  {
+    "source": "arabic_culture",
+    "question": "ما السوق التقليدي الشهير في إسطنبول؟",
+    "answer": "البازار الكبير",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما الرياضة التي تستخدم فيها الكرة والمضرب والقواعد؟",
+    "answer": "البيسبول",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما الرياضة التي تلعب على الجليد بالعصا والقرص؟",
+    "answer": "هوكي الجليد",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما الرياضة التي تقام في حوض سباحة؟",
+    "answer": "السباحة",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما الرياضة التي يشتهر بها روجر فيدرر؟",
+    "answer": "التنس",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما الرياضة التي يشتهر بها يوسين بولت؟",
+    "answer": "العدو السريع",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "كم لاعبا في فريق الكرة الطائرة داخل الملعب؟",
+    "answer": "ستة لاعبين",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "كم لاعبا في فريق كرة اليد داخل الملعب؟",
+    "answer": "سبعة لاعبين",
+    "choices": []
+  },
+  {
+    "source": "arabic_sports",
+    "question": "ما اسم نقطة البداية في سباق الماراثون؟",
+    "answer": "خط البداية",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما اللون الناتج عن مزج الأزرق والأصفر؟",
+    "answer": "الأخضر",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما اللون الناتج عن مزج الأحمر والأزرق؟",
+    "answer": "البنفسجي",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الشكل الذي له ثلاثة أضلاع؟",
+    "answer": "المثلث",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الشكل الذي له أربعة أضلاع متساوية؟",
+    "answer": "المربع",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم سنتيمترا في المتر الواحد؟",
+    "answer": "١٠٠ سنتيمتر",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم مترا في الكيلومتر الواحد؟",
+    "answer": "١٠٠٠ متر",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم غراما في الكيلوغرام الواحد؟",
+    "answer": "١٠٠٠ غرام",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "كم ثانية في الدقيقة الواحدة؟",
+    "answer": "٦٠ ثانية",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما اليوم الذي يأتي بعد الجمعة؟",
+    "answer": "السبت",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما اليوم الذي يأتي قبل الاثنين؟",
+    "answer": "الأحد",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الفصل الذي يأتي بعد الشتاء؟",
+    "answer": "الربيع",
+    "choices": []
+  },
+  {
+    "source": "arabic_general",
+    "question": "ما الفصل الذي يأتي بعد الصيف؟",
+    "answer": "الخريف",
+    "choices": []
   }
 ]
